@@ -1,12 +1,20 @@
 
-.logo{
-    height: 50px;
-    width: 130px;
-}
-.link a{
-    font-weight: 600;
-    color: black;
 
+/* custom logo by typed text */
+.custom-logo{
+    color: #004F71 !important;
+    font-family: 'Saira Stencil One';
+    
+    
+}
+
+.link a{
+    font-weight: 500;
+    color: black;
+    font-size: 16px;
+}
+
+/* leader part css  */
 .leader-box{
     height: 200px;
     width: 500px;
@@ -15,12 +23,11 @@
     justify-content: center;
     align-items: center;
     color: white;
+    border-radius: 10px;
 }
+
+/* each member box css  */
 .member-box{
     background-color:#004F71;
     color: white;   
-}
-
-.member-container{
-    margin: 0 auto;
 }
