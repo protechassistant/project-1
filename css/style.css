@@ -1,3 +1,4 @@
+
 .logo{
     height: 50px;
     width: 130px;
@@ -5,4 +6,21 @@
 .link a{
     font-weight: 600;
     color: black;
+
+.leader-box{
+    height: 200px;
+    width: 500px;
+    background-color:#004F71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.member-box{
+    background-color:#004F71;
+    color: white;   
+}
+
+.member-container{
+    margin: 0 auto;
 }
