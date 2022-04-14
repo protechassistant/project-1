@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.section-gap {
+    padding: 60px 0;
+}
+/* custom logo by typed text */
+.custom-logo{
+    color: #004F71 !important;
+    font-family: 'Saira Stencil One';
+}
+
+/* Lead Member Container style */
+.lead-member-container {
+    background-color: #004F71;
+    text-align: center;
+    padding: 35px 30px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.lead-member-container .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5rem;
+    overflow: hidden;
+    border: 3px solid #000;
+}
+
+.lead-member-container .profile-name {
+    margin-top: 20px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* General Member Container style */
+.general-member-container {
+    background-color: #00648F;
+    text-align: center;
+    padding: 35px 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.general-member-container .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 5rem;
+    overflow: hidden;
+    border: 3px solid #000;
+}
+.general-member-container .profile-name {
+    margin-top: 20px;
+    color: #FFF;
+    font-weight: 500;
+    font-size: 20px;
+}
